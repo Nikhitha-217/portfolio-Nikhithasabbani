@@ -1,0 +1,217 @@
+.body{
+    margin: 0;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    color: rgb(93, 180, 93);
+    margin-left: 40px;
+    font-size: 30px;
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    animation: slideleft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.nav-menu{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    margin: 10px;
+}
+.nav-menu:hover{
+    color: white;
+}
+.mass-body{
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/ds6ennjmq/image/upload/v1714225703/portfolio_rmgmo7.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-left: 150px;
+    color: aliceblue;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para{
+    font-size: 20px;
+    line-height: 0;
+}
+.header{
+    font-size: 50px;
+}
+.full{
+    font-size: 60px;
+}
+.button{
+    background-color: aliceblue;
+    border: none;
+    color: black;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: inline-block;
+}
+.button:hover {
+    background-color: red;
+    font-weight: bold;
+}
+.home-page {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   color: red;
+   height: 110vh;
+   align-items: center;
+   background-image: url('https://res.cloudinary.com/ds6ennjmq/image/upload/v1714242298/photo-1472289065668-ce650ac443d2_i8ujo5.avif');
+   background-size: cover;
+}
+.homepage-left{
+    width: 65vw;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.homepage-right{
+    width: 35vw;
+    align-items: left;
+}
+.emp{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img-home{
+    height: 650px;
+    border-radius: 50%;
+}
+.table, .th, .td{
+    border: 1px solid black;
+}
+.table{
+    width: 120px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    caption-side: top;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.heads{
+    text-align: center;
+    margin-top: 10px;
+}
+.par{
+    text-align: center;
+}
+.Edu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/ds6ennjmq/image/upload/v1714247372/360_F_500345899_4OqmtspFst6SRnNQvLj7h7TfKOrBwTer_nsrjtu.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+}
+.card{
+    height: 600px;
+    width: 500px;
+    margin: 20px;
+    width: 50vw;
+}
+.img-card2{
+    height: 500px;
+}
+.card2{
+    height: 720px;
+    width: 920px;
+    padding-left: 10px;
+    border: 0.5px solid black;
+}
+.projects{
+    background-image: url('https://res.cloudinary.com/ds6ennjmq/image/upload/v1714261555/paper-style-dynamic-lines-background_79603-1847_lcg9tp.avif');
+    background-size: cover;
+    text-align: center;
+}
+.Experiences{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/ds6ennjmq/image/upload/v1714266879/collage-customer-experience-concept_23-2149367143_bo9cbj.avif');
+    background-size: cover;
+    color: antiquewhite;
+    height: 100vh;
+}
+.ld{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #d13636;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  background-image: url('https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg');
+}
+.
